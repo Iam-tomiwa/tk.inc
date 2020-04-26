@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+	/*background: #f2f6e9;*/
+}
+/*---navigation bar---*/
+.navbar{
+	background: #9a9a9a; 
+}
+.nav-link{
+	color: #fff;
+	cursor: pointer;
+}
+.navbar-brand{
+	color: #211677;
+	font-size: x-large;
+}
+.navbar-brand>strong>span{
+	color: #f5ee0c;
+	font-size: x-large;
+}
+.nav-link{
+	margin-right: 1em !important;
+}
+.nav-link:hover{
+	color: #000;
+	background-color: #fff;
+}
+.navbar-collapse{
+	justify-content: flex-end;
+}
+/*---header---*/
+.header{
+	background: url(img/logo.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	margin-bottom: 20px;
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.6);
+}
+.description{
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+.description>h1{
+	color: #fff;
+}
+.description>p{
+	font-size: 1.4rem;
+	color: #fff;
+	line-height: 1.5;
+}
+.description>button{
+	border: 1px solid #9a9a9a;
+	background: #9a9a9a;
+	color: #fff;
+}
+.description>button:hover{
+	background: #9a9a9a;
+	color: #000;
+	border-radius: 3;
+	border: 1px solid #fff;
+}
+h2{
+	color: #211677;
+}
+hr.light{
+	border-top: 3px solid #3f3f3f;
+}
+.p{
+	font-size: x-large;
+	margin-bottom: 20px;
+
+}
+.row{
+	margin: 0px 60px 0px 60px;
+}
+.img{
+	margin-top: 30px;
+}
+h3{
+	margin-top: 20px;
+	text-align: center;
+}
+#contact{
+	text-align: center;
+	margin-top: 40px;
+}
+#p{
+	text-align: center;
+}
+input, textarea{
+	border: none;
+	border-bottom: 3px solid #211677;
+	width: 100%;
+	padding-top: 20px
+}
+.social>p>a{
+	font-size: 2em;
+	padding: 3rem;
+	text-decoration: none;
+}
+.fa-map-marker-alt{
+	color: #211677;
+}
+.fa-google-plus-g{
+	color: #dd4b39;
+}
+.fa-whatsapp{
+	color: #39af54;
+}
+footer{
+	background-color: #3f3f3f;
+	color: #d5d5d5;
+}
+hr.dark{
+	border-top: 1px solid #d5d5d5;
+}
+.copy{
+	padding: 5rem;
+	font-size: 1.5em;
+}
+.foot{
+	
+	padding-top: 20px
+}
+.a{
+	border-top: 1px solid #d5d5d5;
+	padding-top: 20px;
+	font-size: 1em; 
+}
