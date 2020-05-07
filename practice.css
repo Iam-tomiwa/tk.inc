@@ -114,12 +114,34 @@ input, textarea{
 	padding: 2rem;
 	text-decoration: none;
 }
-@media(max-width: 411px){
-	.social>p>a{
-	font-size: 1.2em;
-	padding: 1.6rem;
+@media (max-width: 575.98px) {
+
+  .description {
+    left: 0;
+    padding: 0 15px;
+    position: absolute;
+    top: 40%;
+    transform: none;
+    text-align: center;
+  }
+  
+  .description h1 {
+    font-size: 2em;
+  }
+  
+  .description p {
+    font-size: 1.2rem;
+  }
+  
+  .features {
+    margin: 0;
+  }
+  .social>p>a{
+	font-size: 1em;
+	padding: 2rem;
 	text-decoration: none;
-}	
+   }	
+
 }
 .fa-map-marker-alt{
 	color: #211677;
