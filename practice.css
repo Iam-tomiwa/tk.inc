@@ -114,10 +114,10 @@ input, textarea{
 	padding: 2rem;
 	text-decoration: none;
 }
-@media(max-width: 320px){
+@media(min-width: 320px){
 	.social>p>a{
-	font-size: 0.7em;
-	padding: 1.5rem;
+	font-size: 1em;
+	padding: 2rem;
 	text-decoration: none;
 }	
 }
