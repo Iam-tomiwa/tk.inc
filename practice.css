@@ -116,8 +116,8 @@ input, textarea{
 }
 @media(min-width: 320px){
 	.social>p>a{
-	font-size: 1em;
-	padding: 2rem;
+	font-size: 0.7em;
+	padding: 1.5rem;
 	text-decoration: none;
 }	
 }
