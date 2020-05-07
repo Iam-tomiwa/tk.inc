@@ -110,7 +110,7 @@ input, textarea{
 	padding-top: 20px
 }
 .social>p>a{
-	font-size: 2em;
+	font-size: 1.5em;
 	padding: 3rem;
 	text-decoration: none;
 }
@@ -131,7 +131,7 @@ hr.dark{
 	border-top: 1px solid #d5d5d5;
 }
 .copy{
-	padding: 5rem;
+	padding: 3.5rem;
 	font-size: 1.5em;
 }
 .foot{
